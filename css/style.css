@@ -1,79 +1,266 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.main-cover-benner{
+.main-cover-benner {
     width: 1250px;
     height: 600px;
     border-radius: 10px;
     background-image: url(../images/Banner\ Image.png);
     margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.main-cover-gradiun{
+
+.main-cover-gradiun {
     width: 1250px;
     height: 600px;
     border-radius: 10px;
     margin: 50px auto;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
-.happy-new-year-text{
+
+.happy-new-year-text {
     color: #fff;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
-   padding-top: 200px;
+    padding-top: 200px;
 }
-.new-year-party-bennner-content{
+
+.new-year-party-bennner-content {
     color: #fff;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 70px;
     font-style: normal;
-    font-weight: 900; 
+    font-weight: 900;
     width: 600px;
     height: 180px;
-margin: 20px auto;
+    margin: 20px auto;
 }
-.party-welcome{
+
+
+
+
+
+
+
+
+.catagoris-section {
+    width: 1250px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 50px auto;
+}
+
+.catagoris-secend {
+    width: 800px;
+    height: 500px;
+    background-color: blue;
+}
+
+.catagoris-secend img {
+    width: 100%;
+    height: 100%;
+}
+
+.catagoris-secend h1 {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+.welcome-to-party-benner {
+    width: 1250px;
+    height: 600px;
+    background-image: url(../images/Vectorrr.png);
+    border-radius: 10px;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-to-party-gradian {
+    width: 1250px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+
+
+
+
+
+.join-now-section {
+    width: 1250px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.join-btn2 {
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.join-content {
+    width: 300px;
+    height: 250px;
+    background-color: orange;
+    margin: 20px auto;
+}
+
+.join-h1-content {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.subscription-section {
+    width: 1250px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.sub-img {
+    width: 150px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+.subscription-section h1 {
+    color: #070211;
+    text-transform: capitalize;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-secend-div {
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    margin: 30px auto;
+}
+
+.sub-p-tag {
     width: 600px;
-}
-
-
-
-
-
-
-
-
-.catagoris-section{
-    background-color: rgb(176, 209, 209);
-    width: 450px;
-    height: 450px;
+    text-align: center;
+    color: rgba(7, 2, 17, 0.562);
     margin: 10px auto;
+
+
 }
 
+.sub-btn {
+    width: 600px;
+    height: 65px;
+    border-radius: 50px;
+    background: #fff;
+    border: none;
 
-
-
-
-
-
-
-
-.welcome-to-party-benner{
-    width: 1250px;
-    height: 600px;
-    background-image: url(../images/Vectorrr.png);  
-    border-radius: 10px;
-    margin: 50px auto;
 }
-.welcome-to-party-gradian{
+
+.sub-input {}
+
+
+
+
+
+
+
+
+
+
+
+
+.product-section {
     width: 1250px;
     height: 600px;
     border-radius: 10px;
     margin: 50px auto;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); 
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.product-section h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.product-section h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.product-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 600px;
+    margin-left: 20px;
 }
