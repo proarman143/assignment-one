@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-cover-benner{
+    width: 1250px;
+    height: 600px;
+    border-radius: 10px;
+    background-image: url(../images/Banner\ Image.png);
+    margin: 50px auto;
+}
+.main-cover-gradiun{
+    width: 1250px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.happy-new-year-text{
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+   padding-top: 200px;
+}
+.new-year-party-bennner-content{
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900; 
+    width: 600px;
+    height: 180px;
+margin: 20px auto;
+}
+.party-welcome{
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+.catagoris-section{
+    background-color: rgb(176, 209, 209);
+    width: 450px;
+    height: 450px;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+.welcome-to-party-benner{
+    width: 1250px;
+    height: 600px;
+    background-image: url(../images/Vectorrr.png);  
+    border-radius: 10px;
+    margin: 50px auto;
+}
+.welcome-to-party-gradian{
+    width: 1250px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); 
+}
