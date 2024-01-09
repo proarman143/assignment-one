@@ -220,7 +220,8 @@
 
 .song-div-one {
     width: 390px;
-    height: 350px;
+    height: 335px;
+    margin-left: 10;
     margin-left: 10px;
 }
 
@@ -251,7 +252,7 @@
 }
 
 
-.song-img{
+.song-img {
     width: 95%;
     height: 95%;
     border: 10px solid red;
@@ -264,9 +265,7 @@
 }
 
 .curcle {
-    border-radius: 50%;
-    /* border: 10px solid #f00; */
-    /* width: 300px; */
+    margin-left: 50px;
 }
 
 .song-div-one h3 {
@@ -314,6 +313,61 @@
 }
 
 
+
+
+
+
+
+
+.holidy-section {
+    width: 1250px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 100px auto;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.holidy-section h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.holidy-section h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holidy-section p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.sale-50 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
 
 
 
@@ -481,17 +535,39 @@
     height: 1000px;
     margin-top: 130px;
 }
+.line-one{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+}
+.contact-one h1{
+    color: #FFF;
+}
+.line-two{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    margin-top: 20px auto;
+    margin: 20px auto;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
 
-.line-one {
+.line-two img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.contact-two h1{
+    color: #FFF;
+}
+.line-tri{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 20px;
     display: flex;
 }
 
-.adresh {
-    width: 50%;
-    background-color: #fff;
-}
-
-.contect-side {
-    width: 50%;
-    background-color: #fff;
-}
