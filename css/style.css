@@ -237,7 +237,7 @@
     font-weight: 700;
     line-height: normal;
     padding-top: 105px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .song-div-two p {
@@ -247,22 +247,26 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 
 .song-img{
     width: 95%;
     height: 95%;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 15px;
 }
 
 .song-div-two img {
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .curcle {
     border-radius: 50%;
-    border: 10px solid #f00;
+    /* border: 10px solid #f00; */
+    /* width: 300px; */
 }
 
 .song-div-one h3 {
