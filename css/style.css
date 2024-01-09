@@ -128,12 +128,12 @@
 }
 
 .party-welcome {
-
-    color: white;
-    font-size: 60px;
-    width: 400px;
-    font-weight: 900;
-    margin-top: 102px;
+color: white;
+font-size: 60px;
+width: 400px;
+font-weight: 900;
+margin-top: 102px;
+margin-left: 20px;
 }
 
 .welcome-description {
@@ -141,6 +141,7 @@
     font-size: 18px;
     font-weight: 400;
     width: 697px;
+    margin-left: 20px;
 }
 
 .wellcome-button {}
@@ -155,6 +156,7 @@
     margin-top: 40px;
     border: none;
     outline: none;
+    margin-left: 20px;
 }
 
 .join-h1-cls {
@@ -321,10 +323,10 @@
 
 .holidy-section {
     width: 1250px;
-    height: 600px;
+    /* height: 600px; */
     border-radius: 10px;
     margin: 100px auto;
-    background-color: rgba(255, 0, 0, 0.05);
+    /* background-color: rgba(255, 0, 0, 0.05); */
 }
 
 .holidy-section h3 {
@@ -610,4 +612,33 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.holidy-div-two{}
+.holidy-vitor-div{
+    margin-top: 475px;
+}
+.holidy-vitor-div img{
+    width: 99%;
+}
+.holidy-images-3{
+    margin-top: -685px;
+    margin-left: 13px;
+    display: flex;
+}
+.holidy-vitor-div-two{}
+.holidy-vitor-div-two img{
+    width: 796px;
+}
+.holidy-vitor-div-tri{
+    margin-top: 32px;
+}
+.holidy-vitor-div-tri img{
+    width: 430px;
+}
+.holidy-vitor-div-four{
+    margin-left: -525px;
+    margin-top: 167px;
+}
+.holidy-vitor-div-four img{
+    width: 206px;
 }
