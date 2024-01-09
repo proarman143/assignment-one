@@ -210,6 +210,111 @@
 
 
 
+.commitng-song {
+    display: flex;
+    width: 1250px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.song-div-one {
+    width: 390px;
+    height: 350px;
+    margin-left: 10px;
+}
+
+.song-div-two {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.song-div-two h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 105px;
+    margin-left: 20px;
+}
+
+.song-div-two p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 20px;
+}
+
+
+.song-img{
+    width: 95%;
+    height: 95%;
+}
+
+.song-div-two img {
+    margin-left: 20px;
+}
+
+.curcle {
+    border-radius: 50%;
+    border: 10px solid #f00;
+}
+
+.song-div-one h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+}
+
+.song-div-one h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.song-div-one p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.song-div-one h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.song-div-one p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -263,10 +368,11 @@
 
 }
 
-.sub-btn-div{
+.sub-btn-div {
     display: flex;
 }
-.sub-dib-one-btn{
+
+.sub-dib-one-btn {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     height: 50px;
@@ -277,7 +383,8 @@
     font-size: 20px;
     text-transform: capitalize;
 }
-.sub-dib-one-input{
+
+.sub-dib-one-input {
     border-radius: 50px 0px 0px 50px;
     background: white;
     height: 50px;
@@ -351,11 +458,12 @@
 .pro-sec-one-tw {
     display: flex;
 }
-.pro-one img{
-    
-width: 390px;
-    
-height: 300px;
+
+.pro-one img {
+
+    width: 390px;
+
+    height: 300px;
 }
 
 
@@ -371,9 +479,15 @@ height: 300px;
 }
 
 .line-one {
-    width: 1320px;
-    height: 5px;
-    background: #070211;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.15);;
-    padding-top: 100px;
+    display: flex;
+}
+
+.adresh {
+    width: 50%;
+    background-color: #fff;
+}
+
+.contect-side {
+    width: 50%;
+    background-color: #fff;
 }
